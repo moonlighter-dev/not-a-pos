@@ -1,4 +1,5 @@
 const Datastore = require('nedb-promises');
+// for more about NeDB: https://github.com/louischatriot/nedb
 const Ajv = require('ajv');
 const dailySalesSchema = require('../schemas/dailySales');
 
